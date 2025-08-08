@@ -60,6 +60,7 @@
     "*.js": "javascript",
     "*.cpp": "cpp",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "string": "cpp"
   }
 }
