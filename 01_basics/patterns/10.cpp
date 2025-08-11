@@ -1,25 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void fun(){
+void func(){
     for (int i = 0; i < 5; i++)
-      {
-        // space
+    {
         for (int j = 0; j < i; j++)
-        {
-            cout << " ";
-        }
-        // star
-        for (int j = 0; j < 9-2*i; j++)
         {
             cout << "*";
         }
         cout << endl;
     }
-    
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 5; j > i; j--)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
 }
-
 int main(){
-    fun();
+    func();
     return 0;
 }
