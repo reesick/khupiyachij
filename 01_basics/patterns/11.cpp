@@ -1,12 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
+int n = 0 , i , j;
+
+
 
 void func(){
-    for (int i = 0; i < 5; i++)
-    {
-        for (int j = 0; j <= i; j++)
+        
+    
+    for (i = 1; i < 6; i++)
+    {   
+        for (j = 1; j <= i; j++)
         {
-            cout << j;
+           if ((i % 2 == 0 && j % 2 == 0)||(i % 2 != 0 && j % 2 != 0) )
+            {
+             n = 1;
+            }
+        else
+        {
+            n = 0;
+        }
+            cout << n;
+            
         }
         cout << endl;
     }
